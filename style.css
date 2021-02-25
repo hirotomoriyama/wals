@@ -231,6 +231,7 @@ main {
 .name,
 .skills {
   font-size: 20px;
+  color: #000000;
 }
 
 .skills {
@@ -260,6 +261,8 @@ main {
 }
 
 .main-contact p {
+  font-size: 16px;
+  color: #000000;
   padding: 30px 0;
 }
 
@@ -329,5 +332,106 @@ footer p {
 
   .nav-list-item {
     display: none;
+  }
+
+  main {
+    height: 650px;
+    background-image: url("img2/code.png");
+  }
+
+  .main-visual {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-visual h1 {
+    font-size: 40px;
+  }
+
+  .main-visual p {
+    font-size: 18px;
+  }
+
+  .main-content {
+    width: 90%;
+  }
+
+  .portfolio {
+    display: block;
+    width: 90%;
+  }
+
+  .portfolio-image:nth-child(even) {
+    margin: 0 auto;
+  }
+
+  .portfolio-image:nth-child(odd) {
+    display: none;
+  }
+
+  .portfolio-image:nth-child(4) {
+    margin: 10px auto;
+  }
+
+  .main-feature {
+    width: 90%;
+  }
+
+  .strength {
+    display: block;
+    width: 90%;
+  }
+
+  .strength-content {
+    margin: 0 auto;
+  }
+
+  .strength-content:nth-child(2) {
+    padding: 10px 0;
+  }
+
+  .main-profile {
+    width: 90%;
+  }
+
+  .profile-detail {
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
+
+  .profile-image,
+  .profile-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .name {
+    padding-top: 20px;
+  }
+
+  .main-contact {
+    width: 90%;
+  }
+
+  .contact-detail {
+    display: block;
+    width: 90%;
+    text-align: center;
+  }
+
+  .form-contact,
+  .sns-contact {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .form-contact h2 {
+    padding-top: 20px;
+  }
+
+  .sns-contact .fab {
+    padding: 0 8px;
   }
 }
